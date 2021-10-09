@@ -4,7 +4,10 @@
 using namespace std;
 using namespace cv;
 int main() {
+
     Z_Class ad;
-    ad.image_add();
+    //ad.image_add();
+    //ad.image_transformation();
+    ad.image_HSV_color_change();
     return 0;
 }
