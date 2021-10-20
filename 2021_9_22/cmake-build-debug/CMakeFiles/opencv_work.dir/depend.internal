@@ -3,4 +3,5 @@
 
 CMakeFiles/opencv_work.dir/main.cpp.obj
  ../include/Z_Class.h
+ ../include/Z_Class.inl
  E:/Zane/2021_9_22/main.cpp
