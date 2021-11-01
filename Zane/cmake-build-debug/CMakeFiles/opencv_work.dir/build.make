@@ -42,10 +42,10 @@ RM = "D:\ProgramFiles\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Project\C++\Clion\Porject1
+CMAKE_SOURCE_DIR = D:\Project\C++\Clion\Zane
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Project\C++\Clion\Porject1\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Project\C++\Clion\Zane\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/opencv_work.dir/depend.make
@@ -59,30 +59,30 @@ include CMakeFiles/opencv_work.dir/flags.make
 CMakeFiles/opencv_work.dir/main.cpp.obj: CMakeFiles/opencv_work.dir/flags.make
 CMakeFiles/opencv_work.dir/main.cpp.obj: CMakeFiles/opencv_work.dir/includes_CXX.rsp
 CMakeFiles/opencv_work.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\C++\Clion\Porject1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv_work.dir/main.cpp.obj"
-	D:\ProgramFiles\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\opencv_work.dir\main.cpp.obj -c D:\Project\C++\Clion\Porject1\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\C++\Clion\Zane\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv_work.dir/main.cpp.obj"
+	D:\ProgramFiles\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\opencv_work.dir\main.cpp.obj -c D:\Project\C++\Clion\Zane\main.cpp
 
 CMakeFiles/opencv_work.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_work.dir/main.cpp.i"
-	D:\ProgramFiles\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\C++\Clion\Porject1\main.cpp > CMakeFiles\opencv_work.dir\main.cpp.i
+	D:\ProgramFiles\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\C++\Clion\Zane\main.cpp > CMakeFiles\opencv_work.dir\main.cpp.i
 
 CMakeFiles/opencv_work.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_work.dir/main.cpp.s"
-	D:\ProgramFiles\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\C++\Clion\Porject1\main.cpp -o CMakeFiles\opencv_work.dir\main.cpp.s
+	D:\ProgramFiles\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\C++\Clion\Zane\main.cpp -o CMakeFiles\opencv_work.dir\main.cpp.s
 
 CMakeFiles/opencv_work.dir/include/Z_Class.cpp.obj: CMakeFiles/opencv_work.dir/flags.make
 CMakeFiles/opencv_work.dir/include/Z_Class.cpp.obj: CMakeFiles/opencv_work.dir/includes_CXX.rsp
 CMakeFiles/opencv_work.dir/include/Z_Class.cpp.obj: ../include/Z_Class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\C++\Clion\Porject1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opencv_work.dir/include/Z_Class.cpp.obj"
-	D:\ProgramFiles\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\opencv_work.dir\include\Z_Class.cpp.obj -c D:\Project\C++\Clion\Porject1\include\Z_Class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\C++\Clion\Zane\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opencv_work.dir/include/Z_Class.cpp.obj"
+	D:\ProgramFiles\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\opencv_work.dir\include\Z_Class.cpp.obj -c D:\Project\C++\Clion\Zane\include\Z_Class.cpp
 
 CMakeFiles/opencv_work.dir/include/Z_Class.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_work.dir/include/Z_Class.cpp.i"
-	D:\ProgramFiles\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\C++\Clion\Porject1\include\Z_Class.cpp > CMakeFiles\opencv_work.dir\include\Z_Class.cpp.i
+	D:\ProgramFiles\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\C++\Clion\Zane\include\Z_Class.cpp > CMakeFiles\opencv_work.dir\include\Z_Class.cpp.i
 
 CMakeFiles/opencv_work.dir/include/Z_Class.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_work.dir/include/Z_Class.cpp.s"
-	D:\ProgramFiles\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\C++\Clion\Porject1\include\Z_Class.cpp -o CMakeFiles\opencv_work.dir\include\Z_Class.cpp.s
+	D:\ProgramFiles\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\C++\Clion\Zane\include\Z_Class.cpp -o CMakeFiles\opencv_work.dir\include\Z_Class.cpp.s
 
 # Object files for target opencv_work
 opencv_work_OBJECTS = \
@@ -98,7 +98,7 @@ opencv_work_EXTERNAL_OBJECTS =
 ../opencv_work.exe: CMakeFiles/opencv_work.dir/linklibs.rsp
 ../opencv_work.exe: CMakeFiles/opencv_work.dir/objects1.rsp
 ../opencv_work.exe: CMakeFiles/opencv_work.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Project\C++\Clion\Porject1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ..\opencv_work.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Project\C++\Clion\Zane\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ..\opencv_work.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\opencv_work.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -111,6 +111,6 @@ CMakeFiles/opencv_work.dir/clean:
 .PHONY : CMakeFiles/opencv_work.dir/clean
 
 CMakeFiles/opencv_work.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Project\C++\Clion\Porject1 D:\Project\C++\Clion\Porject1 D:\Project\C++\Clion\Porject1\cmake-build-debug D:\Project\C++\Clion\Porject1\cmake-build-debug D:\Project\C++\Clion\Porject1\cmake-build-debug\CMakeFiles\opencv_work.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Project\C++\Clion\Zane D:\Project\C++\Clion\Zane D:\Project\C++\Clion\Zane\cmake-build-debug D:\Project\C++\Clion\Zane\cmake-build-debug D:\Project\C++\Clion\Zane\cmake-build-debug\CMakeFiles\opencv_work.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/opencv_work.dir/depend
 

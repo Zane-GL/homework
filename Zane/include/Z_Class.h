@@ -27,6 +27,7 @@ public:
     static void image_git_read();//git格式图片的读取
     static void Camera_open();//开摄像头
     static void Camera_face_detection();//摄像头人脸检测
+    static void Video_face_detection();//视频人脸检测
 };
 
 //#include "Z_Class.inl"

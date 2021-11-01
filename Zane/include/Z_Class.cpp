@@ -108,51 +108,6 @@ void Z_Class::Camera_open() {
     }
 }
 
-/*void Z_Class::Camera_face_detection() {
-    String facefile = "model/haarcascade_frontalface_default.xml";
-    CascadeClassifier faceCascade;
-    if(!faceCascade.load(facefile)){
-        cout<<"Error!"<<endl;
-        return;
-    }
-    namedWindow("Capture",WINDOW_AUTOSIZE);
-    VideoCapture capture(0);
-
-    Mat frame;
-    Mat gray;
-    vector<Rect> faces;
-
-//    int sn = 0;
-    while (capture.read(frame)){
-        cvtColor(frame,gray,COLOR_BGR2GRAY);
-        equalizeHist(gray,gray);
-
-        faceCascade.detectMultiScale(gray,faces,1.2,3,0,Size(30,30));
-        for (size_t faceSize=0;faceSize<faces.size();faceSize++) {
-            Rect roi;
-            roi.x = faces[static_cast<int>(faceSize)].x;
-            roi.y = faces[static_cast<int>(faceSize)].y;
-            roi.width = faces[static_cast<int>(faceSize)].width;
-            roi.height = faces[static_cast<int>(faceSize)].height;
-
-            Mat faceROI = frame(roi);
-            rectangle(frame,faces[static_cast<int>(faceSize)],Scalar(0,255,0),2,8,0);
-//            sn++;
-//            stringstream stream;
-//            stream << sn;
-//
-//            String snStr = "D:\\Temp\\faces\\face_" + stream.str() + ".jpg";
-//            cout<<snStr<<endl;
-//            imwrite(snStr,faceROI);
-            imshow("Capture",frame);
-            if (waitKey(30)==27){
-                return;
-            }
-        }
-    }
-
-}*/
-
 void Z_Class::Camera_face_detection(){
     VideoCapture videoCapture(0);
     if (!videoCapture.isOpened()){
@@ -193,12 +148,48 @@ void Z_Class::Camera_face_detection(){
         }
     }
 }
-/*for(vector<Rect>::const_iterator iter=faces.begin();iter!=faces.end();iter++){
-                rectangle(frame,*iter,Scalar(0,0,255),2,8); //画出脸部矩形
+
+void Z_Class::Video_face_detection(){
+
+    Mat frame;
+    Mat gray;
+    VideoCapture Video;
+    CascadeClassifier faceCascade;
+    string path ="D:\\Project\\C++\\Clion\\Zane\\src\\Text_Zane.mp4";
+    faceCascade.load("model/haarcascade_frontalface_default.xml");
+    if (faceCascade.empty()){
+        cout<<"XML file not loaded"<<endl;
+        return;
+    }
+
+    vector<Rect> faces;
+
+    while (true){
+        Video.open(path);
+        if(!Video.isOpened()){
+            break;
+        } else{
+            while (Video.read(frame)){
+
+                cvtColor(frame,gray,COLOR_BGR2GRAY);//转为灰度图，加快检测速度
+                equalizeHist(gray,gray);//直方图均衡化，使对比度增强，加强面部特征
+
+                faceCascade.detectMultiScale(gray,faces,1.1,3,0,Size(50,50));
+
+                for(size_t faceSize=0;faceSize<faces.size();faceSize++){
+                    Rect rect;
+                    rect.x = faces[static_cast<int>(faceSize)].x;
+                    rect.y = faces[static_cast<int>(faceSize)].y;
+                    rect.width = faces[static_cast<int>(faceSize)].width;
+                    rect.height = faces[static_cast<int>(faceSize)].height;
+
+                    Mat face_rect = frame(rect);
+                    rectangle(frame,faces[static_cast<int>(faceSize)],Scalar(0,255,0),2,8,0);
+                    imshow("Face",frame);
+                    if(waitKey(10)==27)
+                        return;
+                }
             }
-            Mat image1;
-            for(int i=0;i<faces.size();i++){
-                Mat imgCrop = frame(faces[i]);
-                imshow(to_string(i),imgCrop);
-                rectangle(frame,faces[i].tl(),faces[i].br(),Scalar(0,255,0),3);
-            }*/
+        }
+    }
+}

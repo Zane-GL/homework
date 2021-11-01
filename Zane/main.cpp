@@ -16,6 +16,8 @@ int main() {
     cout<<"5) image_git_read"<<endl;
     cout<<"6) Camera_open"<<endl;
     cout<<"7) Camera_face_detection"<<endl;
+    cout<<"8) Video_face_detection"<<endl;
+
     cin>>input;
 
     switch (input){
@@ -43,6 +45,8 @@ int main() {
         case '7':
             Z_Class::Camera_face_detection();
             break;
+        case '8':
+            Z_Class::Video_face_detection();
         default:
             cout<<"Input Error! Program exit."<<endl;
             return 1;

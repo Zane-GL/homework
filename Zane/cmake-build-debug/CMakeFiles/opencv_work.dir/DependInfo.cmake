@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Project/C++/Clion/Porject1/include/Z_Class.cpp" "D:/Project/C++/Clion/Porject1/cmake-build-debug/CMakeFiles/opencv_work.dir/include/Z_Class.cpp.obj"
-  "D:/Project/C++/Clion/Porject1/main.cpp" "D:/Project/C++/Clion/Porject1/cmake-build-debug/CMakeFiles/opencv_work.dir/main.cpp.obj"
+  "D:/Project/C++/Clion/Zane/include/Z_Class.cpp" "D:/Project/C++/Clion/Zane/cmake-build-debug/CMakeFiles/opencv_work.dir/include/Z_Class.cpp.obj"
+  "D:/Project/C++/Clion/Zane/main.cpp" "D:/Project/C++/Clion/Zane/cmake-build-debug/CMakeFiles/opencv_work.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

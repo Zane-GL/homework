@@ -8,33 +8,33 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Project/C++/Clion/Porject1/cmake-build-debug"/>
+				<Option working_dir="D:/Project/C++/Clion/Zane/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Project/C++/Clion/Porject1/cmake-build-debug"/>
+				<Option working_dir="D:/Project/C++/Clion/Zane/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="opencv_work">
-				<Option output="D:/Project/C++/Clion/Porject1/opencv_work.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Project/C++/Clion/Porject1"/>
+				<Option output="D:/Project/C++/Clion/Zane/opencv_work.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Project/C++/Clion/Zane"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Project/C++/Clion/Porject1/include"/>
+					<Add directory="D:/Project/C++/Clion/Zane/include"/>
 					<Add directory="D:/ProgramFiles/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
 					<Add directory="D:/ProgramFiles/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
 					<Add directory="D:/ProgramFiles/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
@@ -44,20 +44,20 @@
 					<Add directory="D:/ProgramFiles/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencv_work"/>
-					<CompileFile command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencv_work"/>
+					<CompileFile command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="opencv_work/fast">
-				<Option output="D:/Project/C++/Clion/Porject1/opencv_work.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Project/C++/Clion/Porject1"/>
+				<Option output="D:/Project/C++/Clion/Zane/opencv_work.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Project/C++/Clion/Zane"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Project/C++/Clion/Porject1/include"/>
+					<Add directory="D:/Project/C++/Clion/Zane/include"/>
 					<Add directory="D:/ProgramFiles/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
 					<Add directory="D:/ProgramFiles/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
 					<Add directory="D:/ProgramFiles/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
@@ -67,33 +67,33 @@
 					<Add directory="D:/ProgramFiles/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencv_work/fast"/>
-					<CompileFile command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 opencv_work/fast"/>
+					<CompileFile command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Project/C++/Clion/Porject1/cmake-build-debug"/>
+				<Option working_dir="D:/Project/C++/Clion/Zane/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Porject1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/ProgramFiles/msys64/mingw64/bin/mingw32-make.exe -f &quot;D:/Project/C++/Clion/Zane/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Project/C++/Clion/Porject1/include/Z_Class.cpp">
+		<Unit filename="D:/Project/C++/Clion/Zane/include/Z_Class.cpp">
 			<Option target="opencv_work"/>
 		</Unit>
-		<Unit filename="D:/Project/C++/Clion/Porject1/include/Z_Class.h">
+		<Unit filename="D:/Project/C++/Clion/Zane/include/Z_Class.h">
 			<Option target="opencv_work"/>
 		</Unit>
-		<Unit filename="D:/Project/C++/Clion/Porject1/main.cpp">
+		<Unit filename="D:/Project/C++/Clion/Zane/main.cpp">
 			<Option target="opencv_work"/>
 		</Unit>
-		<Unit filename="D:/Project/C++/Clion/Porject1/CMakeLists.txt">
+		<Unit filename="D:/Project/C++/Clion/Zane/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
