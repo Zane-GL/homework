@@ -17,7 +17,8 @@ int main() {
     cout<<"6) Camera_open"<<endl;
     cout<<"7) Camera_face_detection"<<endl;
     cout<<"8) Video_face_detection"<<endl;
-
+    cout<<"9) image_GaussianBlur"<<endl;
+    cout<<"10) Gif_face_detection"<<endl;
     cin>>input;
 
     switch (input){
@@ -47,6 +48,16 @@ int main() {
             break;
         case '8':
             Z_Class::Video_face_detection();
+            break;
+        case '9':
+            Z_Class::image_GaussianBlur();
+            break;
+        case 'a':
+            Z_Class::Gif_face_detection();
+            break;
+        case 'b':
+            Z_Class::Channel_separation();
+            break;
         default:
             cout<<"Input Error! Program exit."<<endl;
             return 1;

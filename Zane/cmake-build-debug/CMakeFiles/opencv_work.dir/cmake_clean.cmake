@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "../libopencv_work.dll.a"
+  "CMakeFiles/opencv_work.dir/main.cpp.obj"
+  "CMakeFiles/opencv_work.dir/include/Z_Class.cpp.obj"
+  "../opencv_work.pdb"
   "../opencv_work.exe"
   "../opencv_work.exe.manifest"
-  "../opencv_work.pdb"
-  "CMakeFiles/opencv_work.dir/include/Z_Class.cpp.obj"
-  "CMakeFiles/opencv_work.dir/main.cpp.obj"
+  "../libopencv_work.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

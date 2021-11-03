@@ -150,18 +150,16 @@ void Z_Class::Camera_face_detection(){
 }
 
 void Z_Class::Video_face_detection(){
-
     Mat frame;
     Mat gray;
     VideoCapture Video;
     CascadeClassifier faceCascade;
-    string path ="D:\\Project\\C++\\Clion\\Zane\\src\\Text_Zane.mp4";
+    string path ="src/Text_Bao2.mp4";
     faceCascade.load("model/haarcascade_frontalface_default.xml");
     if (faceCascade.empty()){
         cout<<"XML file not loaded"<<endl;
         return;
     }
-
     vector<Rect> faces;
 
     while (true){
@@ -170,7 +168,6 @@ void Z_Class::Video_face_detection(){
             break;
         } else{
             while (Video.read(frame)){
-
                 cvtColor(frame,gray,COLOR_BGR2GRAY);//转为灰度图，加快检测速度
                 equalizeHist(gray,gray);//直方图均衡化，使对比度增强，加强面部特征
 
@@ -193,3 +190,72 @@ void Z_Class::Video_face_detection(){
         }
     }
 }
+
+void Z_Class::image_GaussianBlur() {
+    Mat img = imread("src/cat2.jpeg");
+//    GaussianBlur(img,img,Size(3,5),1);
+    imshow("sadf",img);
+    waitKey();
+        //return;
+}
+
+void Z_Class::Gif_face_detection(string path) {
+    if(path=="") path ="src/face1.gif";
+    VideoCapture Video;
+    Mat frame;
+    Mat gray;
+    CascadeClassifier faceCascade;
+
+    faceCascade.load("model/haarcascade_frontalface_default.xml");
+
+    if (faceCascade.empty()){
+        cout<<"XML file not loaded"<<endl;
+        return;
+    }
+    vector<Rect> faces;
+
+    while (true){
+        Video.open(path);
+        if(!Video.isOpened()){
+            break;
+        } else{
+            while (Video.read(frame)){
+                cvtColor(frame,gray,COLOR_BGR2GRAY);//转为灰度图，加快检测速度
+                equalizeHist(gray,gray);//直方图均衡化，使对比度增强，加强面部特征
+
+                faceCascade.detectMultiScale(gray,faces,1.1,3,0,Size(50,50));
+
+                for(size_t faceSize=0;faceSize<faces.size();faceSize++){
+                    Rect rect;
+                    rect.x = faces[static_cast<int>(faceSize)].x;
+                    rect.y = faces[static_cast<int>(faceSize)].y;
+                    rect.width = faces[static_cast<int>(faceSize)].width;
+                    rect.height = faces[static_cast<int>(faceSize)].height;
+
+                    Mat face_rect = frame(rect);
+                    rectangle(frame,faces[static_cast<int>(faceSize)],Scalar(0,255,0),2,8,0);
+                    imshow("Face",frame);
+                    if(waitKey(100)==27)
+                        return;
+                }
+            }
+        }
+    }
+}
+
+void Z_Class::Channel_separation(){
+    Mat a;
+    VideoCapture cap;
+    cap.open("http://www.yeeworld.com/data/upload/editer/image/2016/11/10/5823d268ee5b1.jpg");
+    cap>>a;
+    resize(a,a,Size(),2,2);
+    Mat kernel = Mat::zeros(10,10,CV_32FC1);
+    kernel.at<float>(Point(0,0))=.5;
+    kernel.at<float>(Point(9,8))=.5;
+
+    filter2D(a,a,-1,kernel);
+    imshow("sdf",a);
+    waitKey();
+}
+
+
