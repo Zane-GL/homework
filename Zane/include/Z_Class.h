@@ -31,6 +31,7 @@ public:
     static void image_GaussianBlur();//图片高斯模糊
     static void Gif_face_detection(string path="");//git图人脸检测
     static void Channel_separation();//通道分离
+    static void QR_code_recognition();//二维码识别
 };
 
 //#include "Z_Class.inl"

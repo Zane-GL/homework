@@ -28,7 +28,13 @@ cstdlib
 vector
 -
 
-E:/Zane/include/Z_Class.cpp
+D:/Project/C++/Clion/Zane/include/Z_Class.cpp
+Z_Class.h
+-
+
+D:/Project/C++/Clion/Zane/main.cpp
+opencv2/opencv.hpp
+-
 Z_Class.h
 -
 

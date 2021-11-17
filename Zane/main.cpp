@@ -58,6 +58,9 @@ int main() {
         case 'b':
             Z_Class::Channel_separation();
             break;
+        case 'c':
+            Z_Class::QR_code_recognition();
+            break;
         default:
             cout<<"Input Error! Program exit."<<endl;
             return 1;
